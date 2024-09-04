@@ -10,7 +10,7 @@ __SYD.entryPage = () =>{
     return __c(
         'div',
         {
-            style:__sC['entryPage']({method:'add' , style:{backgroundColor:'#000',zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',display:__p(['threeDContainer','current'],true) ? 'flex' : 'none'}}),
+            style:__sC['entryPage']({method:'add' , style:{backgroundColor:'rgba(0,0,0,.9)',zIndex:__p(['threeDContainer','current'],true) ? '200' : '100',display:__p(['threeDContainer','current'],true) ? 'flex' : 'none'}}),
             // onmousedown:'btn_down(e)',
             // onmouseup:'btn_up()',
             // onmousemove:'btn_move()',
@@ -32,10 +32,11 @@ __SYD.entryPage = () =>{
             __c(
                 'div',
                 {
-                    style:"padding:15px;border:2px solid #fff;border-radius:10px;color:#fff;font-size:30px;position:absolute;bottom:30px;left:50%;transform:translateX(-50%);cursor:pointer;box-shadow:0 0 2px #fff;font-family:tahoma , sans serif;font-weight:700;letter-spacing:3px;"
+                    style:"height:70px;width:150px;padding:15px;border:5px double #48e7f9;border-radius:15px;color:#fff;font-size:30px;position:absolute;bottom:30px;left:50%;transform:translateX(-50%);cursor:pointer;box-shadow:0 0 2px #48e7f9;font-family:tahoma , sans serif;font-weight:700;letter-spacing:3px;",
+                    class:'enter_btn'
                 },
                 [
-                    'ENTER'
+                    // __c('p',{},[])
                 ],
                 {
                     events:{
@@ -166,7 +167,7 @@ __SYD.button_front = (parentNum) =>{
             style:__sC['sides_b']({method:'add',style:{background:'#000'}}),
             class:'front_cover btn_plates'
         },[
-            __c('p',{style:'text-shadow:0 0 15px #fff'},[`${words[1][parentNum]}`])
+            __c('p',{style:''},[`${words[1][parentNum]}`])
         ]
     )
 }
@@ -192,7 +193,7 @@ __SYD.button_left = (parentNum) =>{
             style:__sC['sides_b']({method:'add',style:{height:'50px',width:'50px'}}),
             class:'left_cover btn_plates'
         },[
-            __c('p',{style:'text-shadow:0 0 15px #fff'},[`${words[1][parentNum]}`])
+            __c('p',{style:''},[`${words[1][parentNum]}`])
         ]
     )
 }
