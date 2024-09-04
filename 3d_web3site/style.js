@@ -75,16 +75,16 @@ __sS([
             height:'100%',
             width:'100%',
             background:'#000',//'linear-gradient(to top right , #3e3f46 , #2e3133 70%)',//#0f0f0f
-            boxShadow:`0 0 5px #fff`,
+            boxShadow:`0 0 5px #48e7f9`,
             display:'flex',
             justifyContent:'center',
             alignItems:'center',
-            border:'0.1px solid #fff',
+            border:'0.1px solid #48e7f9',
             fontWeight:'900',
             fontSize:'25px',
             fontFamily:'tahoma ,sans serif',
             // textShadow:'0 0 30px #fff',
-            color:'#fff'
+            color:'#01afc2'//#012f73 , #0252a1
             // boxShadow:'0 0 5px #08f7d8'
         }
     },
