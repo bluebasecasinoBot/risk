@@ -52,7 +52,7 @@ video{
 .city_page
 {
     position:relative;
-    background-size:calc(1320px * 1) 100%;
+/*     background-size:calc(1320px * 1) 100%; */
 }
 .city_page::before
 {
@@ -64,7 +64,7 @@ video{
     width: 100vw;
     min-width:1320px;
     background-position:left top;
-    background-size:inherit;
+    background-size:calc(1320px * 1) 100%;
     background-image:url("./building.jpg");
 }
 .pole_left_details
