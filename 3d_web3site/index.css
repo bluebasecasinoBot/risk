@@ -52,7 +52,7 @@ video{
 .city_page
 {
     position:relative;
-    background-size:calc(100vw * 1) 100%;
+    background-size:calc(1320px * 1) 100%;
 }
 .city_page::before
 {
