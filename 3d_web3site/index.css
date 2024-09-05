@@ -60,7 +60,8 @@ video{
     left: 0;
     content: '';
     height: 100vh;
-    min-width: 100vw;
+    width: 100vw;
+    min-width:1320px;
     background-position:left top;
     background-size:calc(100vw * 1) 100%;
     background-image:url("./building.jpg");
